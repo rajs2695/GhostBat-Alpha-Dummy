@@ -1,6 +1,7 @@
 import os
 from os import getenv
 from dotenv import load_dotenv
+from RAUSHAN.__xmain__ import * # Sophia
 
 if os.path.exists("local.env"):
     load_dotenv("local.env")
@@ -20,6 +21,11 @@ LOG_GROUP = getenv("LOG_GROUP", "-1001735663878")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://t.me/HeartBeat_Muzic")
 BRANCH = getenv("BRANCH", "main") #don't change
+
+# Sophia
+OWNER_ID = RAUSHAN.me.id
+SUDO_USERS_ID = [8071602126]
+BOTS_ALLOWED_TO_WORK_IN_BUSY_COMMANDS = False
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "BQB6w5MAPCnQr_8FstvmjZyBBPo4EW7vQLdNQU2vgiWbL8t-vE74iiDVLEVMnIbtctM7sfp4QDa4vpV03WqvbehCyJeoxOtmv58KcDG214dQZ81iAWclihGUHB3b-mjSsTVwarUOzM70DMDyGWPlu2odFxYELBQUVr_Go9hRcLeaYg-0Q8ldL6KiIxpQMHjlnwHefLxPvm1Z_jXNfuI0zuOK6R81YSTqaqIOOavO4e6ntZsYxDc39k4cOxZCUP1-Ijo6x_tSYptSq-RWXhvUfJ6wCR_XI7HDz3dcAZQ8IxeWiguW5VgG572JZyjy30z62pCgUl48EAWNC9l8UL7HSG5pUT3RCwAAAABMXtJJAA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
