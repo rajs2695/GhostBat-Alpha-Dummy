@@ -23,7 +23,7 @@ REPO_URL = getenv("REPO_URL", "https://t.me/HeartBeat_Muzic")
 BRANCH = getenv("BRANCH", "main") #don't change
 
 # Sophia
-OWNER_ID = RAUSHAN.me.id
+OWNER_ID = [1281282633] #RAUSHAN.me.id
 SUDO_USERS_ID = [8071602126]
 BOTS_ALLOWED_TO_WORK_IN_BUSY_COMMANDS = False
  
