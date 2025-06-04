@@ -76,7 +76,7 @@ async def collect_afk_messages(bot: Client, message: Message):
         CHAT_TYPE[GetChatID(message)] += 1
 
 
-@Client.on_message(filters.command("afk", ".") & filters.me, group=3)
+@Client.on_message(filters.command("xafk", ".") & filters.me, group=3)
 async def afk_set(bot: Client, message: Message):
     global AFK_REASON, AFK, AFK_TIME
 
