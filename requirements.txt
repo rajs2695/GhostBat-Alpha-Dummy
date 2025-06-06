@@ -28,22 +28,22 @@ uwuify
 # Sophia
 #git+https://github.com/KurimuzonAkuma/pyrogram.git
 #TgCrypto
-py-tgcalls
+#py-tgcalls
 #matplotlib
 #beautifulsoup4
 #wget
-SpeechRecognition
+#SpeechRecognition
 #pyttsx3
 #pydub
 wikipedia
 google
 #fuzzywuzzy
-pymongo[srv]
+#pymongo[srv]
 yt_dlp
-asyncio
+#asyncio
 youtube_search_python
 youtube_dl
 youtube_search
-python-ffmpeg
+#python-ffmpeg
 #gtts
 #pytz
