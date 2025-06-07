@@ -1,7 +1,7 @@
 import os
 from os import getenv
 from dotenv import load_dotenv
-from RAUSHAN.__xmain__ import * # Sophia
+from RAUSHAN.__main__ import * # Sophia
 
 if os.path.exists("local.env"):
     load_dotenv("local.env")
